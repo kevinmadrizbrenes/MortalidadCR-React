@@ -6,7 +6,7 @@ const DataList = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios.get('https://mortalidadcr.onrender.com/mortalidad/')
+    axios.get('https://mortalidadcr.onrender.com/mortalidad/') // Deploy de Back-End
       .then(response => {
         setData(response.data); // Asignar directamente los datos JSON
         setLoading(false);
@@ -30,8 +30,15 @@ const DataList = () => {
             <th>Año</th>
             <th>Tipo de Accidente</th>
             <th>Provincia</th>
+            <th>Cantón</th>
+            <th>Ruta</th>
             <th>Rol Persona</th>
+            <th>Sexo</th>
+            <th>Edad</th>
+            <th>Franja</th>
+            <th>Día</th>
             <th>Mes</th>
+            <th>Edad Quinquenal</th>
           </tr>
         </thead>
         <tbody>
@@ -40,8 +47,15 @@ const DataList = () => {
               <td>{item.año}</td>
               <td>{item['tipo de accidente']}</td>
               <td>{item.provincia}</td>
+              <td>{item.cantón}</td>
+              <td>{item.ruta}</td>
               <td>{item['rol persona']}</td>
+              <td>{item.sexo}</td>
+              <td>{item.edad}</td>
+              <td>{item.franja}</td>
+              <td>{item.día}</td>
               <td>{item.mes}</td>
+              <td>{item['edad quinquenal']}</td>
             </tr>
           ))}
         </tbody>
