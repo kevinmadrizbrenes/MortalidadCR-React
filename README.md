@@ -1,13 +1,7 @@
-# React + Vite
+# MortalidadCR - Frontend
+Este proyecto fue desarrollado por Kevin Madriz Brenes como parte de una solución de visualización interactiva para datos de mortalidad en Costa Rica. Utiliza React con Vite para ofrecer una interfaz rápida y moderna que consume una API REST creada en FastAPI.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# MortalidadCR-React
+### ¿Qué se logra con este repositorio?
+✅ Consultar registros de mortalidad desde una base de datos en Supabase
+✅ Visualizar datos en tiempo real desde un backend desplegado en Render
+✅ Acceso multiplataforma a través de una interfaz alojada en Vercel
