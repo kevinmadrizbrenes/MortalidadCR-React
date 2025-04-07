@@ -1,5 +1,23 @@
+# Dependencias de Node (no deben ir al repositorio)
 node_modules/
+
+# Carpeta de salida de Vite (archivos generados al compilar)
 dist/
+
+# Caché de Vite (almacena archivos temporales de desarrollo)
 .vite/
+
+# Archivos de salida de Vercel (generados automáticamente)
 .vercel/output/
+
+# Variables de entorno (pueden contener claves secretas o contraseñas)
 .env
+
+# Opcional: evitar subir logs o errores locales
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Opcional: archivos del sistema (si usas macOS o Windows)
+.DS_Store
+Thumbs.db

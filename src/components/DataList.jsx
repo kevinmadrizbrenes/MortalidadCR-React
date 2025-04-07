@@ -49,7 +49,7 @@ const DataList = () => {
   };
 
   if (loading) {
-    return <p>Cargando datos...</p>;
+    return <p>Espere mientras se carga la tabla de la base de datos. Puede tardar un poco.</p>;
   }
 
   return (
